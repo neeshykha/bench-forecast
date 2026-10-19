@@ -1,0 +1,5 @@
+As of 2026-10-19, 26 weeks out, expected scenario:
+  utilization: next 13 weeks 70%, full horizon 70% (target 70%)
+  lowest week: 2027-01-11 at 53%, on the bench: Niamh Doyle
+  skill mix: AI agents short in 2 week(s) while others sit on the bench; cross-train candidates by weeks idle: Cian Murphy (1), Dana Brooks (1), Niamh Doyle (1)
+  gap: AI agents, 0.71 FTE short on average from 2027-02-15 (peak 2.02); open the req by 2026-11-09

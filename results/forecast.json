@@ -1,0 +1,2629 @@
+{
+ "as_of": "2026-10-19",
+ "weeks": [
+  "2026-10-19",
+  "2026-10-26",
+  "2026-11-02",
+  "2026-11-09",
+  "2026-11-16",
+  "2026-11-23",
+  "2026-11-30",
+  "2026-12-07",
+  "2026-12-14",
+  "2026-12-21",
+  "2026-12-28",
+  "2027-01-04",
+  "2027-01-11",
+  "2027-01-18",
+  "2027-01-25",
+  "2027-02-01",
+  "2027-02-08",
+  "2027-02-15",
+  "2027-02-22",
+  "2027-03-01",
+  "2027-03-08",
+  "2027-03-15",
+  "2027-03-22",
+  "2027-03-29",
+  "2027-04-05",
+  "2027-04-12"
+ ],
+ "settings": {
+  "hours_per_week": 40.0,
+  "target_utilization": 0.7,
+  "planning_ceiling": 0.85,
+  "bench_threshold": 0.5,
+  "ramp_weeks": 6,
+  "ramp_factor": 0.5,
+  "time_to_hire_weeks": 8,
+  "shortfall_fte": 0.5,
+  "shortfall_weeks": 4,
+  "shortfall_share": 0.75,
+  "bench_weeks": 4,
+  "bench_window_margin": 0.1,
+  "lead_cover_share": 0.9,
+  "mismatch_min_weeks": 2
+ },
+ "skills": {
+  "security-automation": "Security automation",
+  "it-ops": "IT ops",
+  "cloud-identity": "Cloud & identity",
+  "ai-agents": "AI agents"
+ },
+ "engineers": [
+  {
+   "id": "maya",
+   "name": "Maya Chen",
+   "region": "US",
+   "skills": [
+    "cloud-identity",
+    "security-automation"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "luis",
+   "name": "Luis Ortega",
+   "region": "US",
+   "skills": [
+    "it-ops",
+    "security-automation"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "priya",
+   "name": "Priya Nair",
+   "region": "US",
+   "skills": [
+    "ai-agents",
+    "it-ops"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "sam",
+   "name": "Sam Whitfield",
+   "region": "US",
+   "skills": [
+    "cloud-identity"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "dana",
+   "name": "Dana Brooks",
+   "region": "US",
+   "skills": [
+    "security-automation"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "jordan",
+   "name": "Jordan Ellis",
+   "region": "US",
+   "skills": [
+    "ai-agents",
+    "it-ops"
+   ],
+   "start": "2026-11-30",
+   "end": null
+  },
+  {
+   "id": "aoife",
+   "name": "Aoife Byrne",
+   "region": "IE",
+   "skills": [
+    "ai-agents",
+    "security-automation"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "cian",
+   "name": "Cian Murphy",
+   "region": "IE",
+   "skills": [
+    "cloud-identity",
+    "it-ops"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "id": "niamh",
+   "name": "Niamh Doyle",
+   "region": "IE",
+   "skills": [
+    "security-automation"
+   ],
+   "start": null,
+   "end": "2027-02-26"
+  }
+ ],
+ "utilization": {
+  "booked": [
+   0.6719,
+   0.6719,
+   0.7344,
+   0.7906,
+   0.8219,
+   0.85,
+   0.6972,
+   0.6972,
+   0.5694,
+   0.7143,
+   0.6957,
+   0.3906,
+   0.2812,
+   0.3214,
+   0.2812,
+   0.2196,
+   0.2031,
+   0.1607,
+   0.1406,
+   0.1607,
+   0.1607,
+   0.2009,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "expected": [
+   0.6719,
+   0.6719,
+   0.7344,
+   0.7906,
+   0.8219,
+   0.85,
+   0.6972,
+   0.7528,
+   0.625,
+   0.7795,
+   0.6957,
+   0.5406,
+   0.5312,
+   0.6929,
+   0.6453,
+   0.7348,
+   0.6797,
+   0.7275,
+   0.6797,
+   0.7768,
+   0.8054,
+   0.8335,
+   0.6804,
+   0.6043,
+   0.5953,
+   0.5953
+  ],
+  "stretch": [
+   0.6719,
+   0.6719,
+   0.7344,
+   0.7906,
+   0.8219,
+   0.85,
+   0.6972,
+   0.7667,
+   0.6389,
+   0.7795,
+   0.6957,
+   0.5781,
+   0.5938,
+   0.78,
+   0.7594,
+   0.8155,
+   0.7969,
+   0.85,
+   0.8281,
+   0.85,
+   0.85,
+   0.85,
+   0.7857,
+   0.7901,
+   0.7688,
+   0.7688
+  ]
+ },
+ "team_available": [
+  320.0,
+  320.0,
+  320.0,
+  320.0,
+  320.0,
+  216.0,
+  360.0,
+  360.0,
+  360.0,
+  224.0,
+  184.0,
+  320.0,
+  320.0,
+  280.0,
+  320.0,
+  296.0,
+  320.0,
+  280.0,
+  320.0,
+  280.0,
+  280.0,
+  224.0,
+  280.0,
+  304.0,
+  320.0,
+  320.0
+ ],
+ "team_assigned": {
+  "booked": [
+   215.0,
+   215.0,
+   235.0,
+   253.0,
+   263.0,
+   183.6,
+   251.0,
+   251.0,
+   205.0,
+   160.0,
+   128.0,
+   125.0,
+   90.0,
+   90.0,
+   90.0,
+   65.0,
+   65.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "expected": [
+   215.0,
+   215.0,
+   235.0,
+   253.0,
+   263.0,
+   183.6,
+   251.0,
+   271.0,
+   225.0,
+   174.6,
+   128.0,
+   173.0,
+   170.0,
+   194.0,
+   206.5,
+   217.5,
+   217.5,
+   203.7,
+   217.5,
+   217.5,
+   225.5,
+   186.7,
+   190.5,
+   183.7,
+   190.5,
+   190.5
+  ],
+  "stretch": [
+   215.0,
+   215.0,
+   235.0,
+   253.0,
+   263.0,
+   183.6,
+   251.0,
+   276.0,
+   230.0,
+   174.6,
+   128.0,
+   185.0,
+   190.0,
+   218.4,
+   243.0,
+   241.4,
+   255.0,
+   238.0,
+   265.0,
+   238.0,
+   238.0,
+   190.4,
+   220.0,
+   240.2,
+   246.0,
+   246.0
+  ]
+ },
+ "engineer_weeks": {
+  "maya": [
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 24.0,
+    "assigned": 20.4,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   }
+  ],
+  "luis": [
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 24.0,
+    "assigned": 20.4,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Kestrel Logistics"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 32.0,
+    "assigned": 20.0,
+    "free": 7.2,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 32.0,
+    "assigned": 15.0,
+    "free": 12.2,
+    "top": "Pinecrest Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 23.0,
+    "free": 11.0,
+    "top": "Pinecrest Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 23.0,
+    "free": 11.0,
+    "top": "Pinecrest Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 23.0,
+    "free": 11.0,
+    "top": "Pinecrest Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 23.0,
+    "free": 11.0,
+    "top": "Pinecrest Media"
+   }
+  ],
+  "priya": [
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 24.0,
+    "assigned": 20.4,
+    "free": 0.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Quarry Systems"
+   },
+   {
+    "available": 40.0,
+    "assigned": 3.0,
+    "free": 31.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   }
+  ],
+  "sam": [
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 32.0,
+    "assigned": 25.0,
+    "free": 2.2,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 32.0,
+    "assigned": 25.0,
+    "free": 2.2,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.5,
+    "free": 1.5,
+    "top": "Orchard Health"
+   }
+  ],
+  "dana": [
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 24.0,
+    "assigned": 20.4,
+    "free": 0.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 32.0,
+    "assigned": 12.4,
+    "free": 14.8,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   }
+  ],
+  "jordan": [
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 6.0,
+    "free": 11.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 17.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 17.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 32.0,
+    "assigned": 13.6,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 32.0,
+    "assigned": 13.6,
+    "free": 0.0,
+    "top": "Tidewater Insurance"
+   },
+   {
+    "available": 40.0,
+    "assigned": 17.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 32.0,
+    "assigned": 20.0,
+    "free": 7.2,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Northfield Utilities"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Granite Pharma"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Redcliff Telecom"
+   }
+  ],
+  "aoife": [
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 32.0,
+    "free": 2.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Harbor Mutual"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Oakline Media"
+   },
+   {
+    "available": 40.0,
+    "assigned": 26.0,
+    "free": 8.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 26.0,
+    "free": 8.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Saltmarsh Labs"
+   }
+  ],
+  "cian": [
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Brightwater Energy"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 29.0,
+    "free": 5.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 29.0,
+    "free": 5.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 23.5,
+    "free": 10.5,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 32.0,
+    "assigned": 20.0,
+    "free": 7.2,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.0,
+    "free": 14.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.3,
+    "free": 8.7,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 25.0,
+    "free": 9.0,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 32.0,
+    "assigned": 25.0,
+    "free": 2.2,
+    "top": "Fenwick Bank"
+   },
+   {
+    "available": 40.0,
+    "assigned": 5.0,
+    "free": 29.0,
+    "top": "Elmstead Retail"
+   },
+   {
+    "available": 32.0,
+    "assigned": 5.0,
+    "free": 22.2,
+    "top": "Elmstead Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 5.0,
+    "free": 29.0,
+    "top": "Elmstead Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 5.0,
+    "free": 29.0,
+    "top": "Elmstead Retail"
+   }
+  ],
+  "niamh": [
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 30.0,
+    "free": 4.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 34.0,
+    "free": 0.0,
+    "top": "Meridian Retail"
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 32.0,
+    "assigned": 27.2,
+    "free": 0.0,
+    "top": "Larkspur Health"
+   },
+   {
+    "available": 24.0,
+    "assigned": 20.4,
+    "free": 0.0,
+    "top": "Lumen Payments"
+   },
+   {
+    "available": 40.0,
+    "assigned": 28.0,
+    "free": 6.0,
+    "top": "Cobalt Freight"
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.6,
+    "free": 13.4,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 15.0,
+    "free": 19.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 32.0,
+    "assigned": 21.8,
+    "free": 5.4,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 15.0,
+    "free": 19.0,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 20.6,
+    "free": 13.4,
+    "top": "Saltmarsh Labs"
+   },
+   {
+    "available": 40.0,
+    "assigned": 0.0,
+    "free": 34.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   },
+   {
+    "available": 0.0,
+    "assigned": 0.0,
+    "free": 0.0,
+    "top": null
+   }
+  ]
+ },
+ "demand": {
+  "ai-agents": [
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   30.0,
+   30.0,
+   30.0,
+   0.0,
+   32.0,
+   32.0,
+   32.0,
+   52.0,
+   52.0,
+   67.0,
+   67.0,
+   84.5,
+   84.5,
+   90.5,
+   90.5,
+   90.5,
+   90.5,
+   90.5
+  ],
+  "cloud-identity": [
+   25.0,
+   25.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   57.5,
+   52.5,
+   52.5,
+   52.5,
+   52.5,
+   52.5,
+   52.5,
+   52.5,
+   32.5,
+   32.5,
+   32.5,
+   32.5
+  ],
+  "it-ops": [
+   20.0,
+   20.0,
+   20.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   60.0,
+   60.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   20.0,
+   25.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "security-automation": [
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   140.0,
+   140.0,
+   120.0,
+   120.0,
+   90.0,
+   90.0,
+   60.0,
+   88.0,
+   53.0,
+   77.0,
+   77.0,
+   77.0,
+   77.0,
+   92.0,
+   92.0,
+   92.0,
+   100.0,
+   100.0,
+   75.0,
+   75.0,
+   75.0,
+   75.0
+  ]
+ },
+ "unmet": {
+  "booked": {
+   "ai-agents": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    24.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cloud-identity": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    11.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    17.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "it-ops": [
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    2.0,
+    20.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    9.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "security-automation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    15.0,
+    40.6,
+    9.0,
+    9.0,
+    0.0,
+    25.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "expected": {
+   "ai-agents": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    24.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    4.0,
+    4.0,
+    27.8,
+    19.0,
+    16.5,
+    16.5,
+    56.5,
+    12.5,
+    19.3,
+    12.5,
+    12.5
+   ],
+   "cloud-identity": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    11.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    17.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "it-ops": [
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    2.0,
+    20.0,
+    0.0,
+    0.0,
+    0.0,
+    5.4,
+    29.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "security-automation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    15.0,
+    40.6,
+    9.0,
+    9.0,
+    0.0,
+    25.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    4.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "stretch": {
+   "ai-agents": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    24.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.6,
+    0.0,
+    34.8,
+    28.0,
+    71.6,
+    58.0,
+    68.0,
+    68.0,
+    108.8,
+    65.0,
+    49.8,
+    44.0,
+    44.0
+   ],
+   "cloud-identity": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    11.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    17.8,
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    8.8,
+    2.0,
+    8.8,
+    2.0,
+    2.0,
+    2.0,
+    8.8,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "it-ops": [
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    2.0,
+    20.0,
+    0.0,
+    0.0,
+    0.0,
+    10.4,
+    34.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "security-automation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    15.0,
+    40.6,
+    9.0,
+    9.0,
+    0.0,
+    25.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.6,
+    0.0,
+    27.0,
+    27.0,
+    27.0,
+    5.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "engagements": [
+  {
+   "id": "harbor",
+   "customer": "Harbor Mutual",
+   "skill": "security-automation",
+   "stage": "closed",
+   "start": "2026-10-05",
+   "weeks": 14,
+   "hours_per_week": 35,
+   "region": "US",
+   "lead": "Maya Chen",
+   "lead_note": null
+  },
+  {
+   "id": "kestrel",
+   "customer": "Kestrel Logistics",
+   "skill": "it-ops",
+   "stage": "closed",
+   "start": "2026-09-28",
+   "weeks": 12,
+   "hours_per_week": 20,
+   "region": null,
+   "lead": "Luis Ortega",
+   "lead_note": null
+  },
+  {
+   "id": "brightwater",
+   "customer": "Brightwater Energy",
+   "skill": "cloud-identity",
+   "stage": "closed",
+   "start": "2026-10-12",
+   "weeks": 16,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Sam Whitfield",
+   "lead_note": null
+  },
+  {
+   "id": "larkspur",
+   "customer": "Larkspur Health",
+   "skill": "security-automation",
+   "stage": "closed",
+   "start": "2026-10-19",
+   "weeks": 10,
+   "hours_per_week": 30,
+   "region": "US",
+   "lead": "Dana Brooks",
+   "lead_note": null
+  },
+  {
+   "id": "meridian",
+   "customer": "Meridian Retail",
+   "skill": "security-automation",
+   "stage": "closed",
+   "start": "2026-09-21",
+   "weeks": 12,
+   "hours_per_week": 30,
+   "region": "IE",
+   "lead": "Niamh Doyle",
+   "lead_note": null
+  },
+  {
+   "id": "fenwick",
+   "customer": "Fenwick Bank",
+   "skill": "cloud-identity",
+   "stage": "closed",
+   "start": "2026-11-02",
+   "weeks": 20,
+   "hours_per_week": 20,
+   "region": "IE",
+   "lead": "Cian Murphy",
+   "lead_note": null
+  },
+  {
+   "id": "oakline",
+   "customer": "Oakline Media",
+   "skill": "ai-agents",
+   "stage": "closed",
+   "start": "2026-10-19",
+   "weeks": 8,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Aoife Byrne",
+   "lead_note": null
+  },
+  {
+   "id": "tidewater",
+   "customer": "Tidewater Insurance",
+   "skill": "it-ops",
+   "stage": "closed",
+   "start": "2026-11-09",
+   "weeks": 14,
+   "hours_per_week": 20,
+   "region": null,
+   "lead": "Luis Ortega",
+   "lead_note": null
+  },
+  {
+   "id": "quarry",
+   "customer": "Quarry Systems",
+   "skill": "ai-agents",
+   "stage": "closed",
+   "start": "2026-09-14",
+   "weeks": 16,
+   "hours_per_week": 30,
+   "region": null,
+   "lead": "Priya Nair",
+   "lead_note": null
+  },
+  {
+   "id": "lumen",
+   "customer": "Lumen Payments",
+   "skill": "security-automation",
+   "stage": "closed",
+   "start": "2026-11-16",
+   "weeks": 18,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Aoife Byrne",
+   "lead_note": null
+  },
+  {
+   "id": "vantage",
+   "customer": "Vantage Freight",
+   "skill": "security-automation",
+   "stage": "closed",
+   "start": "2026-10-19",
+   "weeks": 6,
+   "hours_per_week": 20,
+   "region": null,
+   "lead": "Luis Ortega",
+   "lead_note": null
+  },
+  {
+   "id": "cobalt",
+   "customer": "Cobalt Freight",
+   "skill": "security-automation",
+   "stage": "commit",
+   "start": "2027-01-04",
+   "weeks": 16,
+   "hours_per_week": 35,
+   "region": null,
+   "lead": "Maya Chen",
+   "lead_note": null
+  },
+  {
+   "id": "granite",
+   "customer": "Granite Pharma",
+   "skill": "ai-agents",
+   "stage": "commit",
+   "start": "2027-01-11",
+   "weeks": 20,
+   "hours_per_week": 40,
+   "region": null,
+   "lead": "Priya Nair",
+   "lead_note": null
+  },
+  {
+   "id": "northfield",
+   "customer": "Northfield Utilities",
+   "skill": "it-ops",
+   "stage": "commit",
+   "start": "2026-12-07",
+   "weeks": 12,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Jordan Ellis",
+   "lead_note": null
+  },
+  {
+   "id": "saltmarsh",
+   "customer": "Saltmarsh Labs",
+   "skill": "security-automation",
+   "stage": "commit",
+   "start": "2027-01-18",
+   "weeks": 14,
+   "hours_per_week": 30,
+   "region": "IE",
+   "lead": "Aoife Byrne",
+   "lead_note": null
+  },
+  {
+   "id": "orchard",
+   "customer": "Orchard Health",
+   "skill": "cloud-identity",
+   "stage": "commit",
+   "start": "2027-02-01",
+   "weeks": 16,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Sam Whitfield",
+   "lead_note": null
+  },
+  {
+   "id": "redcliff",
+   "customer": "Redcliff Telecom",
+   "skill": "ai-agents",
+   "stage": "best_case",
+   "start": "2027-02-01",
+   "weeks": 16,
+   "hours_per_week": 40,
+   "region": null,
+   "lead": "Jordan Ellis",
+   "lead_note": null
+  },
+  {
+   "id": "ashgrove",
+   "customer": "Ashgrove Bank",
+   "skill": "cloud-identity",
+   "stage": "best_case",
+   "start": "2027-01-25",
+   "weeks": 12,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Sam Whitfield",
+   "lead_note": null
+  },
+  {
+   "id": "pinecrest",
+   "customer": "Pinecrest Media",
+   "skill": "security-automation",
+   "stage": "best_case",
+   "start": "2027-02-15",
+   "weeks": 10,
+   "hours_per_week": 30,
+   "region": null,
+   "lead": "Luis Ortega",
+   "lead_note": null
+  },
+  {
+   "id": "willow",
+   "customer": "Willow Analytics",
+   "skill": "ai-agents",
+   "stage": "best_case",
+   "start": "2027-03-01",
+   "weeks": 12,
+   "hours_per_week": 35,
+   "region": null,
+   "lead": "Aoife Byrne",
+   "lead_note": null
+  },
+  {
+   "id": "summit",
+   "customer": "Summit Outfitters",
+   "skill": "ai-agents",
+   "stage": "best_case",
+   "start": "2027-02-15",
+   "weeks": 14,
+   "hours_per_week": 30,
+   "region": null,
+   "lead": "Jordan Ellis",
+   "lead_note": null
+  },
+  {
+   "id": "stonebridge",
+   "customer": "Stonebridge County",
+   "skill": "security-automation",
+   "stage": "pipeline",
+   "start": "2027-03-08",
+   "weeks": 16,
+   "hours_per_week": 40,
+   "region": null,
+   "lead": "Luis Ortega",
+   "lead_note": null
+  },
+  {
+   "id": "marlow",
+   "customer": "Marlow Health",
+   "skill": "ai-agents",
+   "stage": "pipeline",
+   "start": "2027-03-15",
+   "weeks": 12,
+   "hours_per_week": 30,
+   "region": null,
+   "lead": null,
+   "lead_note": "no_room"
+  },
+  {
+   "id": "elmstead",
+   "customer": "Elmstead Retail",
+   "skill": "it-ops",
+   "stage": "pipeline",
+   "start": "2027-02-22",
+   "weeks": 10,
+   "hours_per_week": 25,
+   "region": null,
+   "lead": "Cian Murphy",
+   "lead_note": null
+  }
+ ],
+ "on_bench": {
+  "2026-10-19": [
+   "Cian Murphy"
+  ],
+  "2026-10-26": [
+   "Cian Murphy"
+  ],
+  "2026-11-02": [],
+  "2026-11-09": [],
+  "2026-11-16": [],
+  "2026-11-23": [],
+  "2026-11-30": [
+   "Jordan Ellis"
+  ],
+  "2026-12-07": [],
+  "2026-12-14": [
+   "Niamh Doyle"
+  ],
+  "2026-12-21": [],
+  "2026-12-28": [
+   "Dana Brooks"
+  ],
+  "2027-01-04": [
+   "Priya Nair"
+  ],
+  "2027-01-11": [
+   "Niamh Doyle"
+  ],
+  "2027-01-18": [],
+  "2027-01-25": [
+   "Niamh Doyle"
+  ],
+  "2027-02-01": [],
+  "2027-02-08": [
+   "Niamh Doyle"
+  ],
+  "2027-02-15": [],
+  "2027-02-22": [
+   "Niamh Doyle"
+  ],
+  "2027-03-01": [],
+  "2027-03-08": [],
+  "2027-03-15": [],
+  "2027-03-22": [
+   "Cian Murphy"
+  ],
+  "2027-03-29": [
+   "Cian Murphy",
+   "Dana Brooks"
+  ],
+  "2027-04-05": [
+   "Cian Murphy",
+   "Dana Brooks"
+  ],
+  "2027-04-12": [
+   "Cian Murphy",
+   "Dana Brooks"
+  ]
+ },
+ "triggers": [
+  {
+   "skill": "ai-agents",
+   "need_week": "2027-02-15",
+   "window_fte": 0.71,
+   "peak_fte": 2.02,
+   "req_open_by": "2026-11-09",
+   "late": false,
+   "hire_productive": "2027-01-25"
+  }
+ ],
+ "mismatches": [
+  {
+   "week": "2026-12-28",
+   "skill": "cloud-identity",
+   "short_fte": 0.64,
+   "benched": [
+    "Dana Brooks"
+   ]
+  },
+  {
+   "week": "2026-12-28",
+   "skill": "it-ops",
+   "short_fte": 1.04,
+   "benched": [
+    "Dana Brooks"
+   ]
+  },
+  {
+   "week": "2027-02-22",
+   "skill": "ai-agents",
+   "short_fte": 0.68,
+   "benched": [
+    "Niamh Doyle"
+   ]
+  },
+  {
+   "week": "2027-03-29",
+   "skill": "ai-agents",
+   "short_fte": 0.69,
+   "benched": [
+    "Cian Murphy",
+    "Dana Brooks"
+   ]
+  }
+ ],
+ "bench_windows": []
+}

@@ -1,0 +1,225 @@
+{
+  "engagements": [
+    {
+      "id": "harbor",
+      "customer": "Harbor Mutual",
+      "skill": "security-automation",
+      "stage": "closed",
+      "start": "2026-10-05",
+      "weeks": 14,
+      "hours_per_week": 35,
+      "region": "US"
+    },
+    {
+      "id": "kestrel",
+      "customer": "Kestrel Logistics",
+      "skill": "it-ops",
+      "stage": "closed",
+      "start": "2026-09-28",
+      "weeks": 12,
+      "hours_per_week": 20
+    },
+    {
+      "id": "brightwater",
+      "customer": "Brightwater Energy",
+      "skill": "cloud-identity",
+      "stage": "closed",
+      "start": "2026-10-12",
+      "weeks": 16,
+      "hours_per_week": 25
+    },
+    {
+      "id": "larkspur",
+      "customer": "Larkspur Health",
+      "skill": "security-automation",
+      "stage": "closed",
+      "start": "2026-10-19",
+      "weeks": 10,
+      "hours_per_week": 30,
+      "region": "US"
+    },
+    {
+      "id": "meridian",
+      "customer": "Meridian Retail",
+      "skill": "security-automation",
+      "stage": "closed",
+      "start": "2026-09-21",
+      "weeks": 12,
+      "hours_per_week": 30,
+      "region": "IE"
+    },
+    {
+      "id": "fenwick",
+      "customer": "Fenwick Bank",
+      "skill": "cloud-identity",
+      "stage": "closed",
+      "start": "2026-11-02",
+      "weeks": 20,
+      "hours_per_week": 20,
+      "region": "IE"
+    },
+    {
+      "id": "oakline",
+      "customer": "Oakline Media",
+      "skill": "ai-agents",
+      "stage": "closed",
+      "start": "2026-10-19",
+      "weeks": 8,
+      "hours_per_week": 25
+    },
+    {
+      "id": "tidewater",
+      "customer": "Tidewater Insurance",
+      "skill": "it-ops",
+      "stage": "closed",
+      "start": "2026-11-09",
+      "weeks": 14,
+      "hours_per_week": 20
+    },
+    {
+      "id": "quarry",
+      "customer": "Quarry Systems",
+      "skill": "ai-agents",
+      "stage": "closed",
+      "start": "2026-09-14",
+      "weeks": 16,
+      "hours_per_week": 30
+    },
+    {
+      "id": "lumen",
+      "customer": "Lumen Payments",
+      "skill": "security-automation",
+      "stage": "closed",
+      "start": "2026-11-16",
+      "weeks": 18,
+      "hours_per_week": 25
+    },
+    {
+      "id": "vantage",
+      "customer": "Vantage Freight",
+      "skill": "security-automation",
+      "stage": "closed",
+      "start": "2026-10-19",
+      "weeks": 6,
+      "hours_per_week": 20
+    },
+    {
+      "id": "cobalt",
+      "customer": "Cobalt Freight",
+      "skill": "security-automation",
+      "stage": "commit",
+      "start": "2027-01-04",
+      "weeks": 16,
+      "hours_per_week": 35
+    },
+    {
+      "id": "granite",
+      "customer": "Granite Pharma",
+      "skill": "ai-agents",
+      "stage": "commit",
+      "start": "2027-01-11",
+      "weeks": 20,
+      "hours_per_week": 40
+    },
+    {
+      "id": "northfield",
+      "customer": "Northfield Utilities",
+      "skill": "it-ops",
+      "stage": "commit",
+      "start": "2026-12-07",
+      "weeks": 12,
+      "hours_per_week": 25
+    },
+    {
+      "id": "saltmarsh",
+      "customer": "Saltmarsh Labs",
+      "skill": "security-automation",
+      "stage": "commit",
+      "start": "2027-01-18",
+      "weeks": 14,
+      "hours_per_week": 30,
+      "region": "IE"
+    },
+    {
+      "id": "orchard",
+      "customer": "Orchard Health",
+      "skill": "cloud-identity",
+      "stage": "commit",
+      "start": "2027-02-01",
+      "weeks": 16,
+      "hours_per_week": 25
+    },
+    {
+      "id": "redcliff",
+      "customer": "Redcliff Telecom",
+      "skill": "ai-agents",
+      "stage": "best_case",
+      "start": "2027-02-01",
+      "weeks": 16,
+      "hours_per_week": 40
+    },
+    {
+      "id": "ashgrove",
+      "customer": "Ashgrove Bank",
+      "skill": "cloud-identity",
+      "stage": "best_case",
+      "start": "2027-01-25",
+      "weeks": 12,
+      "hours_per_week": 25
+    },
+    {
+      "id": "pinecrest",
+      "customer": "Pinecrest Media",
+      "skill": "security-automation",
+      "stage": "best_case",
+      "start": "2027-02-15",
+      "weeks": 10,
+      "hours_per_week": 30
+    },
+    {
+      "id": "willow",
+      "customer": "Willow Analytics",
+      "skill": "ai-agents",
+      "stage": "best_case",
+      "start": "2027-03-01",
+      "weeks": 12,
+      "hours_per_week": 35
+    },
+    {
+      "id": "summit",
+      "customer": "Summit Outfitters",
+      "skill": "ai-agents",
+      "stage": "best_case",
+      "start": "2027-02-15",
+      "weeks": 14,
+      "hours_per_week": 30
+    },
+    {
+      "id": "stonebridge",
+      "customer": "Stonebridge County",
+      "skill": "security-automation",
+      "stage": "pipeline",
+      "start": "2027-03-08",
+      "weeks": 16,
+      "hours_per_week": 40
+    },
+    {
+      "id": "marlow",
+      "customer": "Marlow Health",
+      "skill": "ai-agents",
+      "stage": "pipeline",
+      "start": "2027-03-15",
+      "weeks": 12,
+      "hours_per_week": 30
+    },
+    {
+      "id": "elmstead",
+      "customer": "Elmstead Retail",
+      "skill": "it-ops",
+      "stage": "pipeline",
+      "start": "2027-02-22",
+      "weeks": 10,
+      "hours_per_week": 25
+    }
+  ]
+}

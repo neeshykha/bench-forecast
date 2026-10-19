@@ -1,0 +1,142 @@
+{
+  "as_of": "2026-10-19",
+  "skills": {
+    "security-automation": "Security automation",
+    "it-ops": "IT ops",
+    "cloud-identity": "Cloud & identity",
+    "ai-agents": "AI agents"
+  },
+  "holidays": {
+    "US": [
+      "2026-11-26",
+      "2026-11-27",
+      "2026-12-25",
+      "2027-01-01",
+      "2027-01-18",
+      "2027-02-15"
+    ],
+    "IE": [
+      "2026-12-25",
+      "2026-12-28",
+      "2027-01-01",
+      "2027-02-01",
+      "2027-03-17",
+      "2027-03-29"
+    ]
+  },
+  "engineers": [
+    {
+      "id": "maya",
+      "name": "Maya Chen",
+      "region": "US",
+      "skills": [
+        "security-automation",
+        "cloud-identity"
+      ],
+      "pto": [
+        "2026-12-21"
+      ]
+    },
+    {
+      "id": "luis",
+      "name": "Luis Ortega",
+      "region": "US",
+      "skills": [
+        "security-automation",
+        "it-ops"
+      ],
+      "pto": [
+        "2026-12-28"
+      ]
+    },
+    {
+      "id": "priya",
+      "name": "Priya Nair",
+      "region": "US",
+      "skills": [
+        "it-ops",
+        "ai-agents"
+      ],
+      "pto": [
+        "2027-03-15"
+      ]
+    },
+    {
+      "id": "sam",
+      "name": "Sam Whitfield",
+      "region": "US",
+      "skills": [
+        "cloud-identity"
+      ],
+      "pto": [
+        "2026-11-23"
+      ]
+    },
+    {
+      "id": "dana",
+      "name": "Dana Brooks",
+      "region": "US",
+      "skills": [
+        "security-automation"
+      ],
+      "pto": [
+        "2027-01-04",
+        "2027-01-11",
+        "2027-01-18",
+        "2027-01-25",
+        "2027-02-01",
+        "2027-02-08",
+        "2027-02-15",
+        "2027-02-22",
+        "2027-03-01",
+        "2027-03-08",
+        "2027-03-15",
+        "2027-03-22"
+      ]
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan Ellis",
+      "region": "US",
+      "skills": [
+        "it-ops",
+        "ai-agents"
+      ],
+      "start": "2026-11-30"
+    },
+    {
+      "id": "aoife",
+      "name": "Aoife Byrne",
+      "region": "IE",
+      "skills": [
+        "security-automation",
+        "ai-agents"
+      ],
+      "pto": [
+        "2026-12-21",
+        "2026-12-28"
+      ]
+    },
+    {
+      "id": "cian",
+      "name": "Cian Murphy",
+      "region": "IE",
+      "skills": [
+        "it-ops",
+        "cloud-identity"
+      ],
+      "pto": [
+        "2026-12-28"
+      ]
+    },
+    {
+      "id": "niamh",
+      "name": "Niamh Doyle",
+      "region": "IE",
+      "skills": [
+        "security-automation"
+      ],
+      "end": "2027-02-26"
+    }
+  ]
+}
